@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Imran | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      // Redirect to index.html for GitHub Pages
+      // Since we're using HashRouter, just redirect to base path
+      var pathSegmentsToKeep = 1;
+      var l = window.location;
+      var basePath = l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/');
+      // Redirect to base path with hash router
+      l.replace(l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') + basePath + '/#/');
+    </script>
+    <meta http-equiv="refresh" content="0; url=./">
+  </head>
+  <body>
+    <p>Redirecting to <a href="./">home page</a>...</p>
+  </body>
+</html>
+

@@ -1,0 +1,118 @@
+.footer {
+  background-color: #0b1220;
+  color: #e6eaf2;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.footer-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.footer-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.footer-brand h2 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+}
+
+.footer-brand p {
+  font-size: 0.95rem;
+  color: #9aa4b2;
+  max-width: 420px;
+  margin: 0 auto;
+}
+
+.socials {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.8rem;
+}
+
+.social-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.social-btn:hover {
+  background: rgba(255, 255, 255, 0.15);
+  transform: translateY(-3px);
+}
+.social-icon{
+  width: 26px;
+  height: 26px;
+  object-fit: contain;
+  opacity: 1;
+  transition: transform .2s ease;
+}
+.social-btn:hover .social-icon{ transform: scale(1.08); }
+
+
+
+hr {
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  margin: 2rem 0;
+}
+
+.footer-bottom {
+  font-size: 0.9rem;
+  color: #9aa4b2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+/* Responsive Layout */
+@media (min-width: 768px) {
+  .footer-top {
+    flex-direction: row;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .footer-brand p {
+    margin: 0;
+  }
+
+  .footer-bottom {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+/* Create divider line between each icon using CSS */
+.social-btn::after {
+  content: "";
+  position: absolute;
+  right: -0.6rem;     /* space between the icon and the divider */
+  top: 25%;
+  height: 50%;
+  width: 1px;
+  background: rgba(255, 255, 255, 0.25);  /* subtle line */
+}
+
+/* Remove divider after the last icon */
+.social-btn:last-child::after {
+  display: none;
+}
+.social-btn {
+  position: relative; /* important for ::after to align correctly */
+}
+

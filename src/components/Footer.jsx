@@ -81,8 +81,8 @@ export default function Footer() {
 
         {/* Bottom Section */}
         <div className="footer-bottom">
-          <p>© {new Date().getFullYear()} Your Name — All Rights Reserved.</p>
-          <p>Designed with ❤️ using React</p>
+          <p>© {new Date().getFullYear()} Imran — All Rights Reserved.</p>
+          <p>Designed using React</p>
         </div>
       </div>
     </footer>

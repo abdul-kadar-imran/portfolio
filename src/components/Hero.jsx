@@ -4,6 +4,8 @@ import profile from '../../public/images/Profile.jpg'
 import slide1 from '../../public/images/pic1.jpg'
 import slide2 from '../../public/images/pic2.jpg'
 import slide3 from '../../public/images/pic3.jpg'
+import { Link } from 'react-router-dom';
+
 
 export default function Hero() {
   return (
@@ -55,12 +57,13 @@ export default function Hero() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.4 }}
           >
-            <a className="btn primary" href="/src/assets/Imran.cv.pdf" download>
+            <a className="btn primary" href="/resume/Imran__cv.pdf" download>
               Download Developer Resume
             </a>
-            <a className="btn" href="/projects">
+            <Link className="btn" to="/projects">
               View Projects
-            </a>
+            </Link>
+
           </motion.div>
         </div>
 

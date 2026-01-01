@@ -30,8 +30,8 @@ const projects = [
     title: 'Crescent Connect',
     img: p3,
     desc: 'University Cultural Community Web Application',
-    tags: ['AI', 'JSON', 'TypeScript', 'JavaScript'],
-    github: 'https://github.com/abdul-kadar-imran',
+    tags: ['AI', 'JSON', 'TypeScript', 'React JS'],
+    github: 'https://college-website-henna-phi.vercel.app/',
   },
 ]
 

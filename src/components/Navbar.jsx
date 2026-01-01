@@ -5,7 +5,7 @@ import { motion } from 'framer-motion'
 export default function Navbar(){
   const [open, setOpen] = useState(false)
   const nav = [
-    {to:'/', label:' 🏚️ Home'},
+    {to:'/', label:'Home'},
     {to:'/about', label:'About'},
     {to:'/skills', label:'Skills'},
     {to:'/projects', label:'Projects'},

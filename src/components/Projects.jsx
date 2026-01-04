@@ -33,6 +33,14 @@ const projects = [
     tags: ['AI', 'JSON', 'TypeScript', 'React JS'],
     github: 'https://college-website-henna-phi.vercel.app/',
   },
+  {
+    id: 4,
+    title: 'Kuruthi Kavi',
+    img: p2,
+    desc: 'Poetry Blogging Website',
+    tags: ['AI', 'JSON', 'TypeScript', 'React JS'],
+    github: 'https://kuruthi-kavi.vercel.app/',
+  },
 ]
 
 const logos = [

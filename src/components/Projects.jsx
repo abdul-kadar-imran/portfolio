@@ -21,7 +21,7 @@ const projects = [
     id: 2,
     title: 'Ethernote ',
     img: p4,
-    desc: 'Created a marketing Page for a Coffee shop',
+    desc: 'Created a Clone App for Google Notes',
     tags: ['AI', 'JSON', 'TypeScript', 'React JS'],
     github: 'https://ethernote.vercel.app',
   },
